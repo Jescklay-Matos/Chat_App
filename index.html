@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsivo.css" />
+    <link rel="stylesheet" href="reset.css" />
+    <title>Chat</title>
+  </head>
+  <body>
+    <div class="chat-container">
+      <div class="sidebar">
+        <div class="header">
+          <div class="avatar">
+            <img
+              src="https://www.okchicas.com/wp-content/uploads/2018/01/Poses-para-una-buena-foto-de-perfil-11.jpg"
+              alt="foto da maria"
+            />
+          </div>
+          <div class="username">Nasly</div>
+        </div>
+        <div class="chat-list">
+          <div class="chat-item">
+            <div class="chat-avatar">
+              <img
+                src="https://www.okchicas.com/wp-content/uploads/2018/01/Poses-para-una-buena-foto-de-perfil-11.jpg"
+                alt="foto da maria"
+              />
+            </div>
+            <div class="chat-info">
+              <div class="chat-name">Nasly</div>
+              <div class="chat-message">Oi, tudo bem?</div>
+            </div>
+          </div>
+          <div class="chat-item">
+            <div class="chat-avatar">
+              <img src="image/jescklay.jpg" alt="foto o jescklay" />
+            </div>
+            <div class="chat-info">
+              <div class="chat-name">Jescklay Mattos</div>
+              <div class="chat-message">Oi Nasly tudo bem sim e voçê?</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="chat-window">
+        <div class="messages" id="messages">
+          <div class="message received">
+            <div class="message-avatar">
+              <img
+                src="https://www.okchicas.com/wp-content/uploads/2018/01/Poses-para-una-buena-foto-de-perfil-11.jpg"
+                alt="foto da maria"
+              />
+            </div>
+            <div class="message-text">Oi, tuto bem?</div>
+          </div>
+          <div class="message sent">
+            <div class="message-avatar">
+              <img src="image/jescklay.jpg" alt="foto de jescklay" />
+            </div>
+            <div class="message-text">Oi Nasly tudo bem sim e voçê?</div>
+          </div>
+        </div>
+        <div class="input-area">
+          <input
+            type="text"
+            placeholder="Digite uma mensagem..."
+            id="messageInput"
+            class="message-input"
+          />
+          <button id="sendBtn" class="send-btn">Enviar</button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
